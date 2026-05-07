@@ -6,30 +6,63 @@
 body {
 	font-family: sans-serif;
 }
+
 h1 {
+	font-size:30px;
+	font-weight: bold;
+	color: #ED5750;
+}
+
+h2 {
 	font-size:24px;
 	font-weight: bold;
-	color: #ff7800;
+	color: #9E22ED;
+}
+
+h3 {
+	font-size:16px;
+	color: #454545;
 }
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  gap: 15px;
+  padding: 1px 30px;
 }
 
-.gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.gallery img {
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  text-decoration: none;
+  color: black;
   transition: 0.2s;
 }
 
-.gallery img:hover {
-  transform: scale(1.03);
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  padding: 8px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #555;
 }
 
 </style>
@@ -40,7 +73,7 @@ h1 {
  <img src="https://img.youtube.com/vi//maxresdefault.jpg">
 </a>
 -->
-<body bgcolor="lightgray">
+<body bgcolor=#EBE9F5>
 
 <h1>2026年</h1>
 <p>
@@ -53,44 +86,52 @@ h1 {
 <p>
 <h1>2025年</h1>
 <p>
-◆８月
+<h2>◆８月</h2>
 <p>
 
 <div class="gallery">
 
-<a href="https://youtu.be/ea5MRNfn3PM" target="_blank">
+<a class="card" href="https://youtu.be/ea5MRNfn3PM" target="_blank">
  <img src="https://img.youtube.com/vi/ea5MRNfn3PM/maxresdefault.jpg">
+ <div class="card-content">
+  <div class="card-title">
+    ベトナム旅行①
+  </div>
+  <div class="card-desc">
+    出発～ハノイ～ダナン着
+  </div>
+ </div>
 </a>
 
-<a href="https://youtu.be/1YyxsXwyUE4" target="_blank">
+<a class="card" href="https://youtu.be/1YyxsXwyUE4" target="_blank">
  <img src="https://img.youtube.com/vi/1YyxsXwyUE4/maxresdefault.jpg">
 </a>
 
-<a href="https://youtu.be/3dZASF21r9s" target="_blank">
+<a class="card" href="https://youtu.be/3dZASF21r9s" target="_blank">
  <img src="https://img.youtube.com/vi/3dZASF21r9s/maxresdefault.jpg">
 </a>
 
-<a href="https://youtu.be/apBxz_mCv5s" target="_blank">
+<a class="card" href="https://youtu.be/apBxz_mCv5s" target="_blank">
  <img src="https://img.youtube.com/vi/apBxz_mCv5s/maxresdefault.jpg">
 </a>
 
-<a href="https://youtu.be/kECnoFZ49Tw" target="_blank">
+<a class="card" href="https://youtu.be/kECnoFZ49Tw" target="_blank">
  <img src="https://img.youtube.com/vi/kECnoFZ49Tw/maxresdefault.jpg">
 </a>
 
-<a href="https://youtu.be/vrY6lu0zERc" target="_blank">
+<a class="card" href="https://youtu.be/vrY6lu0zERc" target="_blank">
  <img src="https://img.youtube.com/vi/vrY6lu0zERc/maxresdefault.jpg">
 </a>
 
-<a href="https://youtu.be/k9wRdr93Y7E" target="_blank">
+<a class="card" href="https://youtu.be/k9wRdr93Y7E" target="_blank">
  <img src="https://img.youtube.com/vi/k9wRdr93Y7E/maxresdefault.jpg">
 </a>
 
-<a href="https://youtu.be/ugGE2eK4R2c" target="_blank">
+<a class="card" href="https://youtu.be/ugGE2eK4R2c" target="_blank">
  <img src="https://img.youtube.com/vi/ugGE2eK4R2c/maxresdefault.jpg">
 </a>
 
-<a href="https://youtu.be/VB2Wdo12LdU" target="_blank">
+<a class="card" href="https://youtu.be/VB2Wdo12LdU" target="_blank">
  <img src="https://img.youtube.com/vi/VB2Wdo12LdU/maxresdefault.jpg">
 </a>
 
@@ -117,6 +158,54 @@ h1 {
 
 <p>
 
+
+<hr>
+<p>
+<h1>2020年</h1>
+<p>
+<h2>◆８月</h2>
+
+<div class="gallery">
+<a class="card" href="https://youtu.be/4BSYD_v8dzs" target="_blank">
+ <img src="https://img.youtube.com/vi/4BSYD_v8dzs/maxresdefault.jpg"> 
+ <div class="card-content">
+  <div class="card-title">
+    夏のめいほう高原へ
+  </div>
+  <div class="card-desc">
+    ジップライン＆ウォータースライダー体験<br>(2020.8.30)
+  </div>
+ </div>
+</a>
+
+<a class="card" href="https://youtu.be/WiqxjM-hWeM" target="_blank">
+ <img src="https://img.youtube.com/vi/WiqxjM-hWeM/maxresdefault.jpg">
+ <div class="card-content">
+  <div class="card-title">
+    初めてのキャンプ・テント泊
+  </div>
+  <div class="card-desc">
+    富士山が見えるオートキャンプ場にて<br>(2020.8.11)
+  </div>
+ </div>
+</a>
+</div>
+
+<!--
+<div class="gallery">
+<a class="card" href="" target="_blank">
+ <img src="https://img.youtube.com/vi//maxresdefault.jpg">
+ <div class="card-content">
+  <div class="card-title">
+    
+  </div>
+  <div class="card-desc">
+    
+  </div>
+ </div>
+</a>
+</div>
+-->
 
 </body>
 </html>
